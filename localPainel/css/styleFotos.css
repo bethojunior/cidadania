@@ -1,0 +1,193 @@
+/* ICONES */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(icons/MaterialIcons-Regular.woff2) format('woff2'),
+    url(icons/MaterialIcons-Regular.woff) format('woff'),
+    url(icons/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* FINISH */
+
+body {
+  font-family: "Montserrat";
+}
+
+.tituloCentro {
+  margin-left: 2%;
+}
+
+.tbodyF{
+  margin: 0;
+  padding: 0;
+}
+
+.corTr {
+  margin:0;
+  padding: 0;
+  color: cadetblue;
+}
+
+
+.span1 {
+  margin-left: 2%;
+  font-size: 15pt;
+  font-family: "Montserrat";
+}
+
+.span2 {
+  color: white;
+  margin-left: 2%;
+}
+
+.span3 {
+  background-color: cadetblue;
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.nav1 {
+    background-color: cadetblue;
+    margin: 0;
+    padding: 0;
+}
+
+.nav3 {
+  background-color: white;
+}
+
+.blue {
+  color: cadetblue;
+}
+
+.inputSubmit {
+    border-radius: 7px;
+    border:thin;
+    background-color: cadetblue;
+    font-size: 20pt;
+    color: white;
+    margin-left: 0;
+    padding: 5px;
+}
+.textArea {
+    resize: none;
+    width: 100%;
+    height: 40%;
+}
+
+
+.sair {
+    font-size: 20pt;
+    margin-left: 85%;
+    margin-right: 2%;
+    margin-top: 0;
+    padding-top: 0;
+    
+    border-radius: 7px;
+}
+
+.sairNome{
+    color: cadetblue;
+    margin-left: 70%!important;
+}
+
+.editImg {
+  max-width: 30%;
+  min-width: 30%;
+  max-height: 15%;
+  max-height: 15%;
+  right: 0;
+  left: 0;
+  padding: 0;
+}
+
+
+.numeroMaximo1{
+  margin-left: 0;
+}
+
+.numeroMaximo {
+  margin-left: 0;
+}
+
+@media only screen and (max-width: 920px){
+
+  .editImg {
+    max-width: 80%;
+    padding: 0;
+  }
+  .sairNome{
+    color: cadetblue;
+    margin-left: 80%;
+  }
+
+  .span2 {
+    color: white;
+    margin-right: 12%;
+    margin-left: 32%;  
+  }
+
+  .numeroMaximo1{
+    margin-left: 2%;
+  }
+
+  .numeroMaximo {
+    margin-left: 2%;
+  }
+
+  #numerosTituloFotoC{
+    margin-left: 12%;
+  }
+
+  .inputSubmit {
+    border-radius: 7px;
+    border:thin;
+    background-color: cadetblue;
+    font-size: 25pt;
+    color: white;
+    margin-top: 2%;
+    margin-left: 63%;
+    padding: 3px;
+  }
+
+  .textArea {
+    resize: none;
+    min-width: 100%;
+    max-width: 100%;
+    height: 40%;
+  }
+
+
+
+}
+

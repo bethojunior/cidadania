@@ -1,0 +1,458 @@
+
+* {
+    font-family: "Titillium Web";
+    
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.logo {
+    width: 120%;
+}
+
+
+.btn1 {
+    margin-top: 5%;
+    margin-left: 18%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 10px;
+}
+
+.btn2 {
+    margin-top: 5%;
+    margin-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border-radius: 10px;
+}
+
+.btn3 {
+    margin-top: 5%;
+    margin-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    border-radius: 10px;
+}
+
+.span1 {
+    font-size: 20pt!important;
+}
+    
+.imgC{
+    width: 80%!important;
+    height: 50%!important;
+}
+
+.tituloImagem {
+    margin-top: 200%;
+}
+
+.divC {
+    margin:0;   
+}
+
+.fundoazul {
+    background-color: cadetblue;
+}
+
+.div-2 {
+    margin-top: 1%;
+    margin-left: 45px;
+    background-color: skyblue;
+
+}
+
+.section-1 {
+    overflow-y: scroll;
+    max-height: 680px;
+    min-height: 680px;
+    border-radius: 7px;
+    background-color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.h11 {
+    color: white;
+    margin-left: 25%;
+}
+
+.textoAcoes {
+    font-family: "Titillium Web";
+    text-align: justify;
+}
+
+.blue { 
+    color:#00BFFF;
+}
+
+.nomeModificacao {
+    color: #00BFFF; 
+}
+
+.borda-redonda {
+    border-radius: 10px;
+}
+
+.divImagem {
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.div-img-1 {
+	width: 100%;
+}
+
+.tituloImagem1 {
+    text-align: center;
+    background-color: skyblue;
+    font-size: 12pt;
+    font-family: "Titillium Web";
+    border-radius: 0px 0px 10px 10px;
+    padding-right: 0;
+    margin: 0;
+    padding-bottom: 0;
+
+}
+
+/*.tituloImagem2 {
+    text-align: center;
+    background-color: skyblue;
+    font-size: 12pt;
+    font-family: "Titillium Web";
+    border-radius: 0px 0px 10px 10px;
+    padding: 1px;
+    margin-left: 2%;
+    margin-right: -2%;
+
+}*/
+
+.imgAcao {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 48%;
+}
+
+
+.nomeAcoes {
+    color: black;
+    font-family: "Titillium Web";
+    text-transform: uppercase;
+	
+    margin: 0;
+    padding: 0;
+}
+
+
+.divNoticia {
+    border-radius: 5px;
+    background-color: skyblue;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding-bottom: 1%;
+
+}
+.tituloDivNoticias {
+    color: white;
+    font-size: 20pt;
+    margin: 0;
+    padding: 0;
+}
+.divNoticia2 {
+    overflow-y: scroll;
+    max-height: 280px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.tituloNoticia{
+    color: cadetblue;
+    text-transform: uppercase; 
+    font-size: 20pt;
+    margin-left: 2%;
+    padding: 0;
+}
+
+.textoNoticia {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    text-align: justify;
+}
+
+.nomeImagem {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 0;
+    padding-bottom: 2%
+}
+.textoModal{
+    margin-top: 10%;
+    color: cadetblue;
+}
+.span1{
+    color: white!important;
+}
+
+.tituloModal {
+    color: cadetblue;
+}
+
+
+/*----------------------------------- MEDIA SCREEN 920px ------------- */
+
+@media only screen and (max-width: 920px){
+    
+    body {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .col-lg-12 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .col-lg-8 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .col-lg-4 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .col-lg-3 {
+        margin: 0;
+        padding: 0;
+    }
+
+	.divLogo{
+		text-align: center;	
+	}
+	
+    .div-1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .carousel1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo{
+        width: 100%;
+		text-align: center;
+    }
+
+    .btn-lg {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .span1 {
+        font-family: "Encode Sans Expanded";
+        text-align: center;
+        font-size: 13pt!important;
+    }
+        
+    .btn1 {
+        margin-top: 3%;    
+        margin-left: 1%;
+    
+        padding-top: 3%;
+        padding-right: 1px;
+        padding-bottom: 3%;
+        padding-left: 1px;
+    }
+    
+    .btn2 {
+        margin-top: 3%;
+        padding-top: 3%;
+        padding-right: 5%;
+        padding-left: 6%;
+        padding-bottom: 3%;
+    }
+    
+    .btn3 {
+        margin-top: 3%;
+        padding-top: 3%;
+        padding-right: 8%;
+        padding-bottom: 3%;
+        padding-left: 8%;
+    }
+    
+    
+    /* ------------------NOSSAS AÇÕES ------------------------------------------------------------------------ */
+    
+    .div-2 {
+        
+        margin-left: 3%;
+        margin-right: 3%;
+
+        padding-left: 4%;
+        padding-right: 4%;
+        background-color: skyblue;
+
+    }
+
+    .section-1 {
+        border-radius: 7px;
+        background-color: white;
+        padding: 0;
+        margin: 0;
+    }
+
+    .h11 {
+        color: white;
+        margin-left: 23%;
+        padding: 0;
+    }
+
+    .nomeAcoes {
+        color: cadetblue;
+        font-size: 20pt;
+        font-family: "Titillium Web";
+        text-transform: uppercase;
+		text-align: center;
+        margin: 0;
+        padding-left: 1%;
+        padding-bottom: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }    
+
+    .textoAcoes {
+        font-family: "Titillium Web";
+        text-align: justify;
+        margin: 0;
+        padding-left: 2%;
+        padding-right: 3%;
+    }    
+    
+/*---------------------IMAGENS -------------------------------------- */    
+
+    .imgAcao {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+	
+	.imgC{
+    	width: 100%!important;
+    	height: 70%!important;
+	}
+    
+    .img-1 {
+        margin-top: 2%;
+        padding: 0;
+    }
+    
+    .tituloImagem1 {
+        text-align: center;
+        background-color: skyblue;
+
+        font-family: "Titillium Web";
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 0;
+        padding-left: 0;
+        margin-top: 1%;
+        margin-left: 0;
+        margin-right: 1px;
+
+    }
+    
+    .nomeImagem {
+        margin-right: 1%;
+        margin-top: -4%;
+        padding: 0;
+    }
+    
+    .img-2 {
+        margin-top: 2%;
+    }
+    
+    .tituloImagem2 {
+        text-align: center;
+        background-color: skyblue;
+
+        font-family: "Titillium Web";
+        padding-top: 1px;
+        padding-bottom: 0;
+        margin-left: 0;
+        margin-right: 1px;    
+
+    }
+    
+    /*--------------- NOTICIAS ------------------ */
+    
+    .divNoticia {
+        border-radius: 5px;
+        background-color: skyblue;
+        margin-top:1%;
+        margin-left: 4%;
+        margin-right: 4%;
+        padding: 2%;
+        margin-bottom: 5%;
+        padding-bottom: 10%;
+        
+    }
+    
+    .tituloDivNoticias{
+        padding: 0;
+        margin-left: 8%;
+        text-align: center;
+        font-size: 35pt;
+        
+    }
+    
+    .divNoticia2 {
+        border-radius: 5px;
+        background-color: white;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    
+    .textoNoticia {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

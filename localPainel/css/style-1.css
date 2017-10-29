@@ -1,0 +1,116 @@
+* {
+	font-family: "Raleway";
+}
+
+body {
+	background-color: cadetblue;
+}
+
+.form-1 {
+	background-color: aliceblue;
+	border: thin;
+	border-radius: 10px;
+	
+    margin-top: 40%;
+	
+	padding-top: 3%;
+	padding-bottom: 5%;
+	padding-left: 3%;
+	padding-right: 3%;
+	
+}
+
+.inputUsuario {
+	border: thin;
+	border-radius: 5px;
+}
+
+.inputSenha {
+	border: thin;
+	border-radius: 5px;
+	margin-bottom: 1%;
+}
+
+.divInput {
+	text-align: center;
+}
+
+.inputButton {
+	border: thin;
+	border-radius: 5px;
+	color: aliceblue;
+	background-color: cadetblue;
+	font-size: 18pt;
+	margin-top: 8%;
+}
+
+/* ---------- MEDIA SCREEN ---------- */
+
+@media only screen and (max-width: 920px){
+	
+	body {
+		background-color: cadetblue;
+	}
+	
+	.form-1{
+		width: 100%;
+		background-color: aliceblue;
+		
+		padding-top: 10%;
+		padding-bottom: 5%;
+		
+		margin-top: 40%;
+	
+	}
+	
+/*
+	.inputButton{
+		font-size: 16pt;
+		color: white;
+		background-color: cadetblue;
+		
+		margin-left: 38%;
+		padding-bottom: 1%;
+	}
+*/
+	.divInput {
+		text-align: center;
+	}
+	
+	.inputButton{
+		font-size: 16pt;
+		color: white;
+		background-color: cadetblue;
+		text-align: center;
+		margin: 0;
+		padding: 2%;
+		margin-top: 2%;
+	}
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

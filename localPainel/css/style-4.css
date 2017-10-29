@@ -1,0 +1,344 @@
+/* ICONES */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(icons/MaterialIcons-Regular.woff2) format('woff2'),
+    url(icons/MaterialIcons-Regular.woff) format('woff'),
+    url(icons/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* FINISH */
+	
+
+* {
+	font-family: "Raleway" , sans-serif;
+}
+
+p {
+	text-align: justify;	
+}
+
+
+/*footer {
+	margin-top: 5%;
+	margin-left: 2%;
+	font-size: 20pt;
+}*/
+
+.nomePagina {
+	text-align: left;
+}
+
+.tituloCentro {
+	margin-left: 2%;
+}
+
+.esconder {
+	display: hidden;
+}
+
+.textarea1 {
+	margin-left: 2%;
+	resize: none;
+	
+ 	width: 450px;
+ 	height: 200px;
+}
+
+.marginTabela {
+	margin: 1%;
+	margin-top: 0;
+}
+
+
+.nav1 {
+	background-color: cadetblue;
+
+}
+
+.inputSubmit {
+	border-style: none;
+	border-radius: 7px;
+	color: white;
+	background-color: cadetblue;
+	font-size: 20pt;
+
+	margin-top: 2%; 
+	margin-left: 2%;
+}
+
+.inputModal {
+	border-style: none;
+	border-radius: 7px;
+	color: white;
+	background-color: cadetblue;
+	font-size: 20pt;
+
+	margin-top: 2%; 
+	margin-left: 54%;
+}
+
+.inputFile {
+	margin-left: 2%;
+}
+
+.span1 {
+
+	padding-left: 2%;
+}
+
+.span3{
+	margin-left: 12%;
+}
+
+.titulo {
+
+	text-transform: uppercase;
+}
+
+.imagemModal {
+	width: 100%;
+}
+
+/* ----- MODAL NOTICIAS ---- */
+
+.textareaModal {
+	resize: none;
+	width: 450px;
+	height: 150px!important;
+}
+
+.inputModal {
+	border-style: none;
+	border-radius: 7px;
+	color: white;
+	background-color: cadetblue;
+	font-size: 20pt;
+
+	margin-top: 5%;
+	margin-left: 45%;
+}
+
+.spanTitulo {
+	margin-left: 11%;
+}
+	
+.contagemTitulo{
+	margin-left: 2%;
+}
+
+.contagemNoticia {
+	margin-left: 2%;
+}
+/*------ MODAL AÇÕES ----------- */
+
+.inputSubmitAcoes{
+	border-style: none;
+	border-radius: 7px;
+	color: white;
+	background-color: cadetblue;
+	font-size: 25pt;
+
+	margin-top: 5%;
+	margin-left: 65%;
+}
+
+.textareaAcao {
+	resize: none;
+	width: 100%;
+	height: 1800px;
+}
+
+.fotosModalAcao {
+	text-decoration: none;
+	font-size: 20pt;
+	margin-left: 3%;
+}
+
+.inputModalAcao{
+	text-decoration: none;
+	font-size: 20pt;
+	background-color: cadetblue;
+	color: white;
+	border: thin;
+	border-radius: 7px;
+	margin-right: 5%;
+}
+
+
+/*--------------- MEDIA SCREEN ------------*/	
+
+@media only screen and (max-width: 920px){
+
+
+	.span1 {
+		margin-left: 2%!important;
+	}
+
+	.nomePagina {
+		margin: 0;
+		padding: 0;
+	}
+
+	.tabMargin {
+		margin: 0!important;
+		padding: 0;
+	}
+
+	.span3 {
+		margin-left: 19%;
+	}
+	
+	.titulo {
+		margin: 0;
+		padding-left: 0;
+	}
+
+	.marginTabela {
+		margin: 2%;
+		margin-top: 0;
+	}
+
+	.textarea1 {
+		margin-left: 1%;
+		resize: none;
+	 	width: 98%;
+	 	height: 35%;
+	}	
+
+	.inputSubmit {
+		border-style: none;
+		border-radius: 7px;
+		color: white;
+		background-color: cadetblue;
+		font-size: 25pt;
+		margin-left: 65%;
+
+	}	
+
+
+	.inputSubmit1 {
+		border-style: none;
+		border-radius: 7px;
+		color: white;
+		background-color: cadetblue;
+		font-size: 25pt;
+
+		margin-top: 10%;
+		margin-left: 5%;
+
+	}
+
+	.file {
+		margin-top: 5%;
+		margin-left: 5%;
+	}
+
+	footer {
+		margin-top:0;
+		margin-bottom: 0;
+		margin-left: 80%;
+	}
+
+	.spanTitulo {
+		margin-left: 15%;
+	}
+
+	/* ----- MODAL NOTICIAS ---- */
+	
+	.span1 {
+		margin: 0;
+	}
+
+	.textareaModal {
+		resize: none;
+		width: 250px;
+		height: 200px;
+	}
+
+	.inputModal {
+		border-style: none;
+		border-radius: 7px;
+		color: white;
+		background-color: cadetblue;
+		font-size: 20pt;
+
+		margin-top: 5%;
+		margin-left: 65%;
+	}
+
+	#contagemAcao {
+		margin-left: 3%;
+	}
+
+	#contagemModalAcao {
+		margin-left: 2%;
+	}
+	
+	#numeros {
+		margin-left: 4%;
+	}
+
+	.contagemTitulo{
+		margin-left: 4%;
+	}
+
+
+
+	/* --------- MODAL AÇÃO ------- */
+
+	.textareaAcao {
+		overflow: hidden;
+		resize: none;
+		height: 210px;
+	}
+
+	.inputSubmitAcoes{
+		border-style: none;
+		border-radius: 7px;
+		color: white;
+		background-color: cadetblue;
+		font-size: 25pt;
+
+		margin-top: 10%;
+		margin-left: 59%;
+	}
+	
+	.td-1 {
+		width: 50%!important;
+	}
+
+	.modal-lg {
+    	width: 95%!important;
+    	background-color: rgba(255, 255, 255, 0.9)!important;
+    }
+}
