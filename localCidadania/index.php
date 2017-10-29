@@ -3,7 +3,7 @@
         <meta charset="utf-8" />
 
         <meta name="viewport" content="width=device-width, user-scalable=no">
-        <title>Cidadania</title>
+        <title>TESTE DE RECONHECIMENTO DO GITHUB</title>
         <link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans|PT+Sans|Poppins|Roboto|Titillium+Web" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
