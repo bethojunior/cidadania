@@ -3,14 +3,14 @@
         <meta charset="utf-8" />
 
         <meta name="viewport" content="width=device-width, user-scalable=no">
-        <title>TESTE DE RECONHECIMENTO DO GITHUB</title>
+        <title>Cidadania e amor</title>
+        <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon" />
         <link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans|PT+Sans|Poppins|Roboto|Titillium+Web" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
         <link href="css/Bootstrap/css/bootstrap.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     </head>

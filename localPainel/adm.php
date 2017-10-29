@@ -5,6 +5,7 @@
 	<head>
 		<meta charset='utf-8' />
 		<meta http-equiv="Cache-Control" content="no-store" />
+        <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon" />
 	    <meta name="viewport" content="width=device-width, initial-scale=1"/>	
 		<title>Painel de controle</title>
 		

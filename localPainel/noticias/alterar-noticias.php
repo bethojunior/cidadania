@@ -6,7 +6,7 @@
 		<meta charset='utf-8' />
 	    <meta name="viewport" content="width=device-width, initial-scale=1"/>	
 		<title>Alterar Noticias</title>
-		
+		<link rel="shortcut icon" href="../imagens/logo.png" type="image/x-icon" />
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=PT+Sans|Ubuntu" rel="stylesheet">
 		<link href="../css/style-4.css" rel="stylesheet" />

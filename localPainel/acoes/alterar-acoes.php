@@ -5,6 +5,7 @@
     <head>
 		<meta charset='utf-8' />
 	    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="shortcut icon" href="../imagens/logo.png" type="image/x-icon" />
 	    <meta http-equiv="Cache-Control" content="no-store" />
 	    <meta http-equiv="Cache-Control" content="no-store" />	
 		<title>Alterar Ações</title>

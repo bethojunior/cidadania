@@ -6,6 +6,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>   
         <title>Fotos</title>
+        <link rel="shortcut icon" href="../imagens/logo.png" type="image/x-icon" />
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=PT+Sans|Ubuntu" rel="stylesheet">
         <link href="../css/styleFotos.css" rel="stylesheet">
