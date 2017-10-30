@@ -320,10 +320,16 @@ body {
 
 .divTextoFooter1 {
     margin-top: 3%;
+    margin-left:5%;
 }
 
 .textoFooter {
     color: white;
+
+}
+
+.textoFooter1 {
+    margin-left: 10%;
 }
 
 .mail {

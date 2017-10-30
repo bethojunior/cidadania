@@ -85,14 +85,16 @@
         
         <div class="divFooter row">
 
-            <div class="footer1 col-lg-2 divTextoFooter1">
+            <div class="col-lg-2 divTextoFooter1">
                 <span class="spanFooter1">Desenvolvido por Fábria 704.<br>Todos os diretos reservados.</span><br>
                 <span class="spanFooter1">&copy;2017</span>  
             </div>
-            <div class="col-lg-2 divTextoFooter1 hid">
-                <!--span class="textoFooter">lorem lisum On the other hand, we denounce with righteous indignation and dislike men</span-->
+
+            <div class="col-lg-1 hid"></div>
+            <!--div class="col-lg-2 divTextoFooter1 hid">
+                span class="textoFooter">lorem lisum On the other hand, we denounce with righteous indignation and dislike men</span
                 <p></p>
-            </div>
+            </div-->
 
             <div class="col-lg-4 contato ">
                 <img class="iconFooter hid" src="imagens/tel.png">
@@ -107,7 +109,7 @@
                 <img class="iconFooter hid" src="imagens/mail.png">
                 <span class="textoFooter hid"><a class="mail hid  href="mailto:onelinamota@hotmail.com">onelinamota@hotmail.com</a></span>
                 
-                <span class="textoFooter">
+                <span class="textoFooter1">
                     <a href="https://www.facebook.com/cidadaniaeamor"  target="_blank"><img class="iconFace" src="imagens/face.png"></a>
                     <a href="https://www.instagram.com/cidadaniaeamor/" target="_black"><img class="iconInsta" src="imagens/insta.png"></a>
                 </span>
