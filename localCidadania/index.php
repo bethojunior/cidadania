@@ -94,7 +94,7 @@
                     <div class="divNoticia2">
                         <span>
                             <?php 
-                                require_once("php/noticias.php")
+                                require_once("php/noticias.php");
                             ?>
                         </span>
                     </div>

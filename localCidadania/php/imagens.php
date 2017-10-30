@@ -39,7 +39,7 @@
                 <div class="modal-body">
                     <?php 
                         echo "<img class='imgAcao' src='../localPainel/uploads/".$imagem['imagem']."' >";  
-                        echo "<h3 class='textoModal'>".$imagem['texto']."</h3>";
+                        echo "<h4 class='textoModal'>".$imagem['texto']."</h4>";
                     ?>
                 </div>
                 <div class="modal-footer">
