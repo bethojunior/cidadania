@@ -7,6 +7,8 @@
 body {
     overflow-y: scroll;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
@@ -74,8 +76,8 @@ body {
 
 .section-1 {
     overflow-y: scroll;
-    max-height: 680px;
-    min-height: 680px;
+    max-height: 100%;
+    min-height: 100%;
     border-radius: 7px;
     background-color: white;
 	padding-left: 10px;
@@ -172,7 +174,7 @@ body {
 }
 .divNoticia2 {
     overflow-y: scroll;
-    max-height: 280px;
+    max-height: 43%;
     border-radius: 5px;
     background-color: white;
     margin: 0;
@@ -211,6 +213,61 @@ body {
 .tituloModal {
     color: cadetblue;
 }
+
+/* FOOTER */
+
+.divFooter {
+    margin: 0;
+    padding: 0;
+    border-radius: 10px 10px 0px 0px;
+    background-color: cadetblue;
+    min-height: 10%;
+    max-height: 10%;
+}
+
+.divSpanFooter {
+    padding-top: 3%;
+}
+
+.spanFooter {
+    color: white;
+}
+
+
+.contato {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.iconFooter{
+    margin-left: 2%;
+    width: 6%;
+}
+
+.iconFace {
+    margin-top: 3px;
+    margin-left: 15px;
+    width: 15%;
+}
+
+.iconInsta{
+    margin-top: 3px;
+    margin-left: 1%;
+    width: 15%;
+}
+
+.textoFooter {
+    color: white;
+}
+
+.mail {
+    color: white;
+}
+
+.mail : hover {
+    color: blue;
+}
+
 
 
 /*----------------------------------- MEDIA SCREEN 920px ------------- */

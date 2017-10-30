@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
         <link href="css/Bootstrap/css/bootstrap.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet" />
+        <link href="css/scroll.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -98,6 +99,40 @@
                         </span>
                     </div>
                 </div>  
+        </div>
+        <div class="col-lg-1">&nbsp;</div>
+        <br>
+
+        <!-- FOOTER -->
+        
+        <div class="divFooter">
+            <div class="footer1 col-lg-2 ">
+                <span class="spanFooter">Desenvolvido por Fábria 704.<br>Todos os diretos reservados.</span><br>
+                <span  class="spanFooter">&copy;2017</span>  
+            </div>
+            <div class="col-lg-2">
+                <span class="textoFooter">lorem lisum On the other hand, we denounce with righteous indignation and dislike men</span>
+            </div>
+
+            <div class="col-lg-4 contato">
+                <img class="iconFooter" src="imagens/tel.png">
+                <span class="textoFooter"><a class="mail" href="telto:(88)35122814">(85)3511-9111</span>
+                    
+                <img class="iconFooter" src="imagens/mail.png">
+                <span class="textoFooter"><a class="mail" href="mailto:fabrica704.gmail.com">fabrica704@gmail.com</a></span>
+            </div>
+            
+            <div class="container col-lg-2">
+                <span class="textoFooter">
+                    <span>Nossas redes sociais</span><br>
+                    <a href="https://www.facebook.com/"  target="_blank"><img class="iconFace" src="imagens/face.png"></a>
+                    <a href="https://www.instagram.com/" target="_black"><img class="iconInsta" src="imagens/insta.png"></a>
+                </span>
+            </div>
+            <div class="col-lg-2">
+                <span class="textoFooter">On the other hand, we denounce with righteous indignation and dislike men w</span>
+            </div>
+
         </div>
         
 
