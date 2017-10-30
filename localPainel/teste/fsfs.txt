@@ -1,0 +1,6 @@
+
+Warning: move_uploaded_file(../../uploads/ds.jpg): failed to open stream: No such file or directory in 
+C:\xampp\htdocs\cidadania\localPainel\php\fotos\uploadFotos.php on line 57
+
+Warning: move_uploaded_file(): Unable to move 'C:\xampp\tmp\php80EF.tmp' to '../../uploads/ds.jpg' in 
+C:\xampp\htdocs\cidadania\localPainel\php\fotos\uploadFotos.php on line 57
