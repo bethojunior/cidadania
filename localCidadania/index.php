@@ -33,16 +33,16 @@
                 <a href="#">
                     <button class="btn2 btn btn-primary btn-lg " type="button">
 <!--                        <span class="glyphicon glyphicon-tag"></span><br>-->
-                       	<i class="tiny material-icons">format_align_left</i><br>
+                        <i class="tiny material-icons">format_align_left</i><br>
                         <span class="span1">Noticias</span>
                     </button>
                 </a>   
                                  
                 <a href="#">
                     <button class="btn3 btn btn-primary btn-lg " type="button">
-<!--                    	<span class="glyphicon glyphicon-tag"></span><br>-->
-                   		<i class="tiny material-icons">camera</i><br>
-                    	<span class="span1">Fotos</span>
+<!--                        <span class="glyphicon glyphicon-tag"></span><br>-->
+                        <i class="tiny material-icons">camera</i><br>
+                        <span class="span1">Fotos</span>
                     </button>
                 </a>
             </div>

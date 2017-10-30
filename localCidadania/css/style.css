@@ -105,8 +105,8 @@ body {
     min-height: 100%;
     border-radius: 7px;
     background-color: white;
-	padding-left: 10px;
-	padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .h11 {
@@ -138,7 +138,7 @@ body {
 }
 
 .div-img-1 {
-	width: 100%;
+    width: 100%;
 }
 
 .tituloImagem1 {
@@ -177,7 +177,7 @@ body {
     color: black;
     font-family: "Titillium Web";
     text-transform: uppercase;
-	
+    
     margin: 0;
     padding: 0;
 }
@@ -249,8 +249,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: cadetblue;
-    min-height: 10%;
-    max-height: 10%;
+    height: 12%;
 }
 
 .divSpanFooter {
@@ -327,10 +326,10 @@ body {
     }
 
 
-	.divLogo{
-		text-align: center;	
-	}
-	
+    .divLogo{
+        text-align: center; 
+    }
+    
     .div-1 {
         width: 100%;
         text-align: center;
@@ -343,7 +342,7 @@ body {
 
     .logo{
         width: 100%;
-		text-align: center;
+        text-align: center;
     }
 
     .btn-lg {
@@ -415,7 +414,7 @@ body {
         font-size: 20pt;
         font-family: "Titillium Web";
         text-transform: uppercase;
-		text-align: center;
+        text-align: center;
         margin: 0;
         padding-left: 1%;
         padding-bottom: 0;
@@ -438,11 +437,11 @@ body {
         margin: 0;
         padding: 0;
     }
-	
-	.imgC{
-    	width: 100%!important;
-    	height: 70%!important;
-	}
+    
+    .imgC{
+        width: 100%!important;
+        height: 70%!important;
+    }
     
     .img-1 {
         margin-top: 2%;
@@ -523,7 +522,7 @@ body {
         padding-bottom: 0;
     }
 
-    /* ------------- FOOTER --------------*/
+    /* ------------- FOOTER    --------------*/
 
     .divFooter {
         background-color: cadetblue;
@@ -606,6 +605,8 @@ body {
     .hid {
         display: none;
     }
+
+
     
 }
 
