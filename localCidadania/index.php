@@ -24,6 +24,7 @@
             <div class="div-1 col-lg-8 col-sm-12">
                 <img src="imagens/jua.png" class="imagemHead">
                 <img src="imagens/pap.png" class="imagemHead1">
+                <img src="imagens/planta.png" class="imagemHead1 hid">
             </div>
         </div>
     <!-- CAROUSEL -->
@@ -89,28 +90,29 @@
                 <span class="spanFooter1">&copy;2017</span>  
             </div>
             <div class="col-lg-2 divTextoFooter1 hid">
-                <span class="textoFooter">lorem lisum On the other hand, we denounce with righteous indignation and dislike men</span>
+                <!--span class="textoFooter">lorem lisum On the other hand, we denounce with righteous indignation and dislike men</span-->
+                <p></p>
             </div>
 
-            <div class="col-lg-4 contato hid">
-                <img class="iconFooter" src="imagens/tel.png">
-                <span class="textoFooter"><a class="mail" href="telto:0800 275 6565">0800 275 6565</span>
+            <div class="col-lg-4 contato ">
+                <img class="iconFooter hid" src="imagens/tel.png">
+                <span class="textoFooter hid"><a class="mail hid" href="telto:0800 275 6565">0800 275 6565</span>
 
                 <img class="iconFooterTel" src="imagens/tel.png">
-                <span class="textoFooter"><a class="mail" href="telto:(88)35119-9111">(88)3511-9111</span>
+                <span class="textoFooter hid "><a class="mail hid" href="telto:(88)35119-9111">(88)3511-9111</span>
 
-                <img class="iconFooterTel" src="imagens/tel.png">
-                <span class="textoFooter"><a class="mail" href="telto:(88)988279642">(88)8827-9642</span>
+                <img class="iconFooterTel hid" src="imagens/tel.png">
+                <span class="textoFooter hid"><a class="mail hid href="telto:(88)988279642">(88)8827-9642</span>
                 <hr>    
-                <img class="iconFooter" src="imagens/mail.png">
-                <span class="textoFooter"><a class="mail" href="mailto:onelinamota@hotmail.com">onelinamota@hotmail.com</a></span>
+                <img class="iconFooter hid" src="imagens/mail.png">
+                <span class="textoFooter hid"><a class="mail hid  href="mailto:onelinamota@hotmail.com">onelinamota@hotmail.com</a></span>
                 
                 <span class="textoFooter">
                     <a href="https://www.facebook.com/cidadaniaeamor"  target="_blank"><img class="iconFace" src="imagens/face.png"></a>
                     <a href="https://www.instagram.com/cidadaniaeamor/" target="_black"><img class="iconInsta" src="imagens/insta.png"></a>
                 </span>
             </div>
-            <div class="col-lg-1 divSpam2">
+            <div class="col-lg-1 hid divSpam2">
                 <span class="spanFooter">
                     Estamos abertos de segunda à sabado das 8h as 17hrs.
                 </span>
