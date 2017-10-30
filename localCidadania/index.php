@@ -86,7 +86,7 @@
                 <?php require_once("php/imagens.php"); ?>
                 
                 
-            <div class="col-lg-8 col-md-12 divNoticia">
+            <div class="col-lg-8 col-md-12 row divNoticia">
                 <span class="tituloDivNoticias">
                     Últimas noticias
                 </span>
@@ -98,7 +98,7 @@
                     </span>
                 </div>
             </div>  
-        </div>
+        </div><br>
 
         <!-- FOOTER -->
         
