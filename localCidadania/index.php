@@ -16,35 +16,14 @@
     </head>
     <body>
 <!--        <a href="../localPainel/index.php">Painel</a>-->
-        <div class="div-1 col-lg-12 col-md-12 col-sm-12 ">
+        <div class="row div-1 col-lg-12 col-md-12 col-sm-12 ">
             <div class="col-lg-4 col-md-12 col-sm-12 divLogo ">
                 <img class="logo" src="imagens/logo.png" >
             </div>
             
-            <div class="row div-1 col-lg-8 col-md-12 col-sm-12">
-                <a href="#">
-                    <button class="btn1 btn btn-primary btn-lg " type="button">
-<!--                        <span class="glyphicon glyphicon-tag"></span>-->
-                        <i class="tiny material-icons">add</i><br>
-                        <span class="span1">Nossas ações</span>
-                    </button>
-                </a>
-                
-                <a href="#">
-                    <button class="btn2 btn btn-primary btn-lg " type="button">
-<!--                        <span class="glyphicon glyphicon-tag"></span><br>-->
-                        <i class="tiny material-icons">format_align_left</i><br>
-                        <span class="span1">Noticias</span>
-                    </button>
-                </a>   
-                                 
-                <a href="#">
-                    <button class="btn3 btn btn-primary btn-lg " type="button">
-<!--                        <span class="glyphicon glyphicon-tag"></span><br>-->
-                        <i class="tiny material-icons">camera</i><br>
-                        <span class="span1">Fotos</span>
-                    </button>
-                </a>
+            <div class="div-1 col-lg-8 col-sm-12">
+                <img src="imagens/jua.png" class="imagemHead">
+                <img src="imagens/pap.png" class="imagemHead1">
             </div>
         </div>
     <!-- CAROUSEL -->

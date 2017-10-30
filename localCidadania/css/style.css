@@ -40,7 +40,25 @@ body {
     width: 120%;
 }
 
+.div-1 {
+    margin-top: 2px;
+    margin-bottom: 1%;
+}
 
+.imagemHead {
+    margin-left: 12%;
+    max-height: 150px;
+    margin-top: 1%;
+}
+
+.imagemHead1 {
+    margin-left: 5%;
+    max-height: 150px;
+    margin-top: 1%;
+}
+
+
+/*
 .btn1 {
     margin-top: 5%;
     margin-left: 18%;
@@ -70,7 +88,7 @@ body {
     padding-right: 8%;
     border-radius: 10px;
 }
-
+*/
 .span1 {
     font-size: 20pt!important;
 }
@@ -338,7 +356,18 @@ body {
         margin: 0;
         padding: 0;
     }
+    
+    .divC {
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
 
+    .imagemHead {
+        margin: 1%;
+        margin-bottom: 0;
+        max-height: 150px;
+    }
 
     .divLogo{
         text-align: center; 
@@ -369,7 +398,7 @@ body {
         text-align: center;
         font-size: 13pt!important;
     }
-        
+    /*   
     .btn1 {
         margin-top: 3%;    
         margin-left: 1%;
@@ -395,7 +424,7 @@ body {
         padding-bottom: 3%;
         padding-left: 8%;
     }
-    
+    */
     
     /* ------------------NOSSAS AÇÕES ------------------------------------------------------------------------ */
     
