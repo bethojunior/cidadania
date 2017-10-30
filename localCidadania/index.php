@@ -124,7 +124,7 @@
                 <span class="textoFooter"><a class="mail" href="telto:(88)988279642">(88)8827-9642</span>
                 <hr>    
                 <img class="iconFooter" src="imagens/mail.png">
-                <span class="textoFooter"><a class="mail" href="mailto:fabrica704.gmail.com">cidadaniaeamor@gmail.com</a></span>
+                <span class="textoFooter"><a class="mail" href="mailto:onelinamota@hotmail.com">onelinamota@hotmail.com</a></span>
                 
                 <span class="textoFooter">
                     <a href="https://www.facebook.com/cidadaniaeamor"  target="_blank"><img class="iconFace" src="imagens/face.png"></a>
