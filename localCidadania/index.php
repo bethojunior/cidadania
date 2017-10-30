@@ -98,15 +98,16 @@
                     </span>
                 </div>
             </div>  
-        </div><br>
+        </div>
+        <br class="hid">
 
         <!-- FOOTER -->
         
-        <div class="divFooter">
+        <div class="divFooter row">
 
             <div class="footer1 col-lg-2 divTextoFooter1">
-                <span class="spanFooter">Desenvolvido por Fábria 704.<br>Todos os diretos reservados.</span><br>
-                <span class="spanFooter">&copy;2017</span>  
+                <span class="spanFooter1">Desenvolvido por Fábria 704.<br>Todos os diretos reservados.</span><br>
+                <span class="spanFooter1">&copy;2017</span>  
             </div>
             <div class="col-lg-2 divTextoFooter1 hid">
                 <span class="textoFooter">lorem lisum On the other hand, we denounce with righteous indignation and dislike men</span>
@@ -114,21 +115,29 @@
 
             <div class="col-lg-4 contato hid">
                 <img class="iconFooter" src="imagens/tel.png">
-                <span class="textoFooter"><a class="mail" href="telto:(88)35122814">(85)3511-9111</span>
-                    
+                <span class="textoFooter"><a class="mail" href="telto:0800 275 6565">0800 275 6565</span>
+
+                <img class="iconFooterTel" src="imagens/tel.png">
+                <span class="textoFooter"><a class="mail" href="telto:(88)35119-9111">(88)3511-9111</span>
+
+                <img class="iconFooterTel" src="imagens/tel.png">
+                <span class="textoFooter"><a class="mail" href="telto:(88)988279642">(88)8827-9642</span>
+                <hr>    
                 <img class="iconFooter" src="imagens/mail.png">
-                <span class="textoFooter"><a class="mail" href="mailto:fabrica704.gmail.com">fabrica704@gmail.com</a></span>
-            </div>
-            
-            <div class="col-lg-2 hid">
+                <span class="textoFooter"><a class="mail" href="mailto:fabrica704.gmail.com">cidadaniaeamor@gmail.com</a></span>
+                
                 <span class="textoFooter">
-                    <span>Nossas redes sociais</span><br>
-                    <a href="https://www.facebook.com/"  target="_blank"><img class="iconFace" src="imagens/face.png"></a>
-                    <a href="https://www.instagram.com/" target="_black"><img class="iconInsta" src="imagens/insta.png"></a>
+                    <a href="https://www.facebook.com/cidadaniaeamor"  target="_blank"><img class="iconFace" src="imagens/face.png"></a>
+                    <a href="https://www.instagram.com/cidadaniaeamor/" target="_black"><img class="iconInsta" src="imagens/insta.png"></a>
                 </span>
             </div>
-            <div class="col-lg-2  divTextoFooter hid">
-                <span class="textoFooter">On the other hand, we denounce with righteous indignation and dislike men w</span>
+            <div class="col-lg-1 divSpam2">
+                <span class="spanFooter">
+                    Estamos abertos de segunda à sabado das 8h as 17hrs.
+                </span>
+            </div>
+            <div class="col-lg-2 mapa hid">   
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.3498526448675!2d-39.27977228522564!3d-7.200865994801341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a17ed7b447c941%3A0xd20ed80ff7db0ddf!2sR.+Sebasti%C3%A3o+R%C3%A9gis%2C+792+-+Aeroporto%2C+Juazeiro+do+Norte+-+CE!5e0!3m2!1spt-BR!2sbr!4v1509391777205"  width="280" height="120" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
 
         </div>

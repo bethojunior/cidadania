@@ -174,7 +174,7 @@ body {
 
 
 .nomeAcoes {
-    color: black;
+    color: cadetblue;
     font-family: "Titillium Web";
     text-transform: uppercase;
     
@@ -249,17 +249,24 @@ body {
     margin: 0;
     padding: 0;
     background-color: cadetblue;
-    height: 12%;
+    height: 20%;
 }
 
 .divSpanFooter {
     padding-top: 3%;
 }
 
+.divSpam2 {
+    margin-top: 1%;
+}
+
 .spanFooter {
     color: white;
 }
 
+.spanFooter1{
+    color: #191970;
+}
 
 .contato {
     text-align: justify;
@@ -270,17 +277,21 @@ body {
     margin-left: 2%;
     width: 6%;
 }
+.iconFooterTel {
+    margin-left: 5%;
+    width: 6%;
+}
 
 .iconFace {
     margin-top: 3px;
-    margin-left: 15px;
-    width: 15%;
+    margin-left: 10%;
+    width: 7%;
 }
 
 .iconInsta{
     margin-top: 3px;
-    margin-left: 1%;
-    width: 15%;
+    margin-left: 5%;
+    width: 7%;
 }
 
 .divTextoFooter {
@@ -288,7 +299,7 @@ body {
 }
 
 .divTextoFooter1 {
-    margin-top: 10px;
+    margin-top: 3%;
 }
 
 .textoFooter {
@@ -303,6 +314,9 @@ body {
     color: blue;
 }
 
+.mapa {
+    margin-top: 1px;
+}
 
 
 
@@ -410,7 +424,7 @@ body {
     }
 
     .nomeAcoes {
-        color: cadetblue;
+        color: cadetblues;
         font-size: 20pt;
         font-family: "Titillium Web";
         text-transform: uppercase;
@@ -544,7 +558,7 @@ body {
     .spanFooter {
         color: white;
         padding: 0;
-        text-align: center;
+        text-align: justify;
     }
 
 
