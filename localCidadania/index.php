@@ -1,16 +1,15 @@
+
 <html>
     <head>
         <meta charset="utf-8" />
-
         <meta name="viewport" content="width=device-width, user-scalable=no">
         <title>Cidadania e amor</title>
-        <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon" />
+        <link rel="icon" href="imagens/logo.png" type="image/x-icon" />
         <link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans|PT+Sans|Poppins|Roboto|Titillium+Web" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
         <link href="css/Bootstrap/css/bootstrap.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet" />
-        <link href="css/scroll.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -87,34 +86,33 @@
                 <?php require_once("php/imagens.php"); ?>
                 
                 
-                <div class="col-lg-8 col-md-12 divNoticia">
-                    <span class="tituloDivNoticias">
-                        Últimas noticias
+            <div class="col-lg-8 col-md-12 divNoticia">
+                <span class="tituloDivNoticias">
+                    Últimas noticias
+                </span>
+                <div class="divNoticia2">
+                    <span>
+                        <?php 
+                            require_once("php/noticias.php");
+                        ?>
                     </span>
-                    <div class="divNoticia2">
-                        <span>
-                            <?php 
-                                require_once("php/noticias.php");
-                            ?>
-                        </span>
-                    </div>
-                </div>  
+                </div>
+            </div>  
         </div>
-        <div class="col-lg-1">&nbsp;</div>
-        <br>
 
         <!-- FOOTER -->
         
         <div class="divFooter">
-            <div class="footer1 col-lg-2 ">
+
+            <div class="footer1 col-lg-2 divTextoFooter1">
                 <span class="spanFooter">Desenvolvido por Fábria 704.<br>Todos os diretos reservados.</span><br>
-                <span  class="spanFooter">&copy;2017</span>  
+                <span class="spanFooter">&copy;2017</span>  
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-2 divTextoFooter1 hid">
                 <span class="textoFooter">lorem lisum On the other hand, we denounce with righteous indignation and dislike men</span>
             </div>
 
-            <div class="col-lg-4 contato">
+            <div class="col-lg-4 contato hid">
                 <img class="iconFooter" src="imagens/tel.png">
                 <span class="textoFooter"><a class="mail" href="telto:(88)35122814">(85)3511-9111</span>
                     
@@ -122,14 +120,14 @@
                 <span class="textoFooter"><a class="mail" href="mailto:fabrica704.gmail.com">fabrica704@gmail.com</a></span>
             </div>
             
-            <div class="container col-lg-2">
+            <div class="col-lg-2 hid">
                 <span class="textoFooter">
                     <span>Nossas redes sociais</span><br>
                     <a href="https://www.facebook.com/"  target="_blank"><img class="iconFace" src="imagens/face.png"></a>
                     <a href="https://www.instagram.com/" target="_black"><img class="iconInsta" src="imagens/insta.png"></a>
                 </span>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-2  divTextoFooter hid">
                 <span class="textoFooter">On the other hand, we denounce with righteous indignation and dislike men w</span>
             </div>
 
