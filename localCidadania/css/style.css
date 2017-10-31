@@ -334,6 +334,7 @@ body {
 
 .mail {
     color: white;
+    font-size: 9pt;
 }
 
 .mail : hover {
