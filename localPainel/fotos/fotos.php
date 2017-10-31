@@ -26,7 +26,7 @@
                     <li class="tab"><a onclick="sair()">Voltar</a></li>
                 </ul>
             </div>
-                <!--footer class="footer">
+    <!--footer class="footer">
         <a href="../adm.php"><i class="small material-icons ">arrow_back</i></a>
     </footer-->
         </nav>

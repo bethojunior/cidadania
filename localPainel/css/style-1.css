@@ -3,16 +3,22 @@
 }
 
 body {
-	background-color: cadetblue;
+	background-color: white;
 }
 
+.divLogo {
+	width: 100%;
+}
+
+.logo {
+	margin-left: 30%;
+}
 .form-1 {
-	background-color: aliceblue;
+	background-color: cadetblue;
 	border: thin;
 	border-radius: 10px;
-	
-    margin-top: 40%;
-	
+	margin-left: 20%;
+    margin-top: 18%;
 	padding-top: 3%;
 	padding-bottom: 5%;
 	padding-left: 3%;
@@ -38,8 +44,8 @@ body {
 .inputButton {
 	border: thin;
 	border-radius: 5px;
-	color: aliceblue;
-	background-color: cadetblue;
+	color: cadetblue;
+	background-color: white;
 	font-size: 18pt;
 	margin-top: 8%;
 }
@@ -49,17 +55,27 @@ body {
 @media only screen and (max-width: 920px){
 	
 	body {
-		background-color: cadetblue;
+		background-color: white;
+	}
+
+	.divLogo {
+		width: 100%;
+		margin: 0;
+	}
+
+	.logo {
+		width: 100%;
+		margin: 0;
 	}
 	
 	.form-1{
 		width: 100%;
-		background-color: aliceblue;
+		background-color: cadetblue;
 		
 		padding-top: 10%;
 		padding-bottom: 5%;
-		
-		margin-top: 40%;
+		margin: 0;
+		margin-top: 20%;
 	
 	}
 	
@@ -79,8 +95,8 @@ body {
 	
 	.inputButton{
 		font-size: 16pt;
-		color: white;
-		background-color: cadetblue;
+		color: cadetblue;
+		background-color: white;
 		text-align: center;
 		margin: 0;
 		padding: 2%;
