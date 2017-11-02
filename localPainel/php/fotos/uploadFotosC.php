@@ -22,7 +22,7 @@
 		echo "Houve um erro";
 		echo "<script>FailedFotosC()</script>";
 	} else {
-		$sql = "INSERT INTO imagemC (titulo , imagem ) values ('$titulo', '$imagem')";
+		$sql = "INSERT INTO imagemc (titulo , imagem ) values ('$titulo', '$imagem')";
 
 		$exc = mysqli_query($conexao , $sql) or die (mysqli_error());
 
