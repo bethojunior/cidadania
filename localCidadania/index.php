@@ -104,16 +104,16 @@
 
             <div class="col-lg-4 contato ">
                 <img class="iconFooter hid" src="imagens/tel.png">
-                <span class="textoFooter hid"><a class="mail hid" href="telto:0800 275 6565">0800 275 6565</a></span>
+                <span class="textoFooter hid"><a class="mail hid" href="telto:0800 275 6565">0800 275 6565</span>
 
                 <img class="iconFooterTel" src="imagens/tel.png">
-                <span class="textoFooter hid "><a class="mail hid" href="telto:(88)35119-9111">(88)3511-9111</a></span>
+                <span class="textoFooter hid "><a class="mail hid" href="telto:(88)35119-9111">(88)3511-9111</span>
 
                 <img class="iconFooterTel hid" src="imagens/tel.png">
-                <span class="textoFooter hid"><a class="mail hid " href="telto:(88)988279642">(88)8827-9642</a></span>
+                <span class="textoFooter hid"><a class="mail hid href="telto:(88)988279642">(88)8827-9642</span>
                 <hr>    
                 <img class="iconFooter hid" src="imagens/mail.png">
-                <span class="textoFooter hid"><a class="mail hid"  href="mailto:onelinamota@hotmail.com">onelinamota@hotmail.com</a></span>
+                <span class="textoFooter hid"><a class="mail hid  href="mailto:onelinamota@hotmail.com">onelinamota@hotmail.com</a></span>
                 
                 <span class="textoFooter1">
                     <a href="https://www.facebook.com/cidadaniaeamor"  target="_blank"><img class="iconFace" src="imagens/face.png"></a>
@@ -122,7 +122,7 @@
             </div>
             <div class="col-lg-1 hid divSpam2">
                 <span class="spanFooter">
-                    
+                    Estamos abertos de segunda à sabado das 8h as 17hrs.
                 </span>
             </div>
             <div class="col-lg-2 mapa hid">   

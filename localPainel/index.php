@@ -25,12 +25,11 @@
 	</head>
 
 	<body>
-        
-		<div class="row">
-            <div class="col l2"></div>
-            
-			<div class="col l6 s12">
+		<div class="col l6">
 			<img class="logo" src="imagens/logo.png">
+		</div>
+		<div class="row">
+			<div class="col l6 s12 offset-l2">
 				<form class="form-1" method="post" action="php/autenticando.php">
 					<input required class="inputUsuario" placeholder="Usuário" name="login">
 					<input required class="inputSenha" placeholder="Senha" type="password" name="senha">
@@ -39,8 +38,6 @@
 					</div>
 				</form>
 			</div>
-			
-			<div class="col l3"></div>
 		</div>	
 	</body>
 </html>
