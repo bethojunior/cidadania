@@ -14,7 +14,7 @@
 	<div class="col-lg-4 divImagem col-md-12 col-sm-12" data-toggle="modal" data-target="#modalFoto<?php echo $i; ?>">
         <div class="tituloImagem1" >
            <?php 
-               echo "<img class='imgAcao' src='../localPainel/uploads/".$imagem['imagem']."' >";  
+               echo "<img class='imgAcao' src='../admin/uploads/".$imagem['imagem']."' >";  
             ?>
             <h3>
                 <?php 
@@ -38,7 +38,7 @@
                 </div>
                 <div class="modal-body">
                     <?php 
-                        echo "<img class='imgAcao' src='../localPainel/uploads/".$imagem['imagem']."' >";  
+                        echo "<img class='imgAcao' src='../admin/uploads/".$imagem['imagem']."' >";  
                         echo "<h4 class='textoModal'>".$imagem['texto']."</h4>";
                     ?>
                 </div>

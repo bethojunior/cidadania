@@ -22,7 +22,7 @@
             </div>
             
             <div class="div-1 col-lg-8 col-sm-12">
-                <img src="imagens/jua.png" class="imagemHead">
+                <img src="imagens/violao.png" class="imagemHead">
                 <img src="imagens/pap.png" class="imagemHead1">
                 <img src="imagens/planta.png" class="imagemHead1 hid">
             </div>
