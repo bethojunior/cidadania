@@ -1,7 +1,6 @@
 
 <?php 
 	include("fotosBdd.php");
-	include("../php/wide-image/WideImage.php");
 	include("../php/conexao.php");
 	$caminho = "img/";
 	$busca = mysqli_query($conexao , "SELECT * FROM imagem order by id desc limit 5 ");

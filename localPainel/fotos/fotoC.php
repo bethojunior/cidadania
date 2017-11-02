@@ -26,13 +26,9 @@
                     <li class="tab"><a onclick="sair()">Voltar</a></li>
                 </ul>
             </div>
-                <!--footer class="footer">
-        <a href="../adm.php"><i class="small material-icons ">arrow_back</i></a>
-    </footer-->
         </nav>
 
-        <div id="1">
-            <div class="row">
+        <div id="1" class="row">
                 <form  method="POST" action="../php/fotos/uploadFotosC.php" enctype="multipart/form-data">
                     <div class="div1 col l12 s12 ">
                         <!--input required class="file" type="file" name="file" multiple=""><br-->
@@ -45,10 +41,9 @@
                         <input class="inputSubmit" type="submit" name="enviar" value="Enviar">
                     </div>
                 </form>
-            </div>
         </div>
 
-        <nav id="2" class="nav3">
+        <nav id="2" class="nav3 row">
             <form method="GET" action="../php/apagarFotosC.php">
                 <div id="test3" class="">
                     <table class="striped">
@@ -85,14 +80,14 @@
             div class="sair">
                 <a href="../adm.php"><i class="material-icons">arrow_back</i></a>
             </div-->
-        </div>
+        
           
 
-    <script src="../frameWorks/Materialize/js/jquery-3.2.1.js" ></script>
-    <script src="../js/functions.js"></script>
-    <script src="../frameWorks/Materialize/js/materialize.js"></script>
-    <!--script>
-        $('#modalenviarFotos').modal('open');
-    </script-->
+ <script src="../frameWorks/Materialize/js/jquery-3.2.1.js">
+   $(".button-collapse").sideNav();
+ </script>
+ <script src="../frameWorks/Materialize/js/materialize.js"></script>
+ <script src="../js/functions.js"></script>  
+    
     </body>
 </html>
