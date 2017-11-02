@@ -1,3 +1,9 @@
+<!--
+    DESENVOLVIDO POR FÁBRICA 704
+    2017
+    FORTALEZA - CE
+    VERSÃO 1.0
+-->
 
 <html>
     <head>
