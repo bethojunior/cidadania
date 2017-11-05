@@ -24,9 +24,9 @@
     
             include ("view/carousel/carousel.php");
  
-            include("view/body/body.php");
+            include ("view/body/body.php");
 
-            include("view/footer/footer.php");
+            include ("view/footer/footer.php");
         ?>
         
         <script src="css/Bootstrap/js/jquery.js"></script>
