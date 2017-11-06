@@ -59,9 +59,11 @@
 
                 //IMAGENS SMALL
 
+                //IMAGENS SMALL
+
                 $img = WideImage::load($upload_dir.$userpic);
                 //REDIMENCIONAR IMAGEM
-                $red = $img->resize(200,200);
+                $red = $img->resize(50,50, 'fill');
                 //SALVANDO EM QUALQUER FORMATO
                 $red->saveToFile($upload_dir.'/small/'.$userpic);
 
@@ -70,9 +72,11 @@
 
                 $img = WideImage::load($upload_dir.$userpic);
                 //REDIMENCIONAR IMAGEM
-                $red = $img->resize(300,300);
+                $red = $img->resize(500,500 ,'fill');
                 //SALVANDO EM QUALQUER FORMATO
                 $red->saveToFile($upload_dir.'/medium/'.$userpic);
+
+
             }
 		    else{
 		     	$errMSG = "<h1><strong><center>Desculpe, sua imagem é muito grande.</center></strong></h1>";
@@ -85,7 +89,7 @@
         
         else{
             echo '<h1><center><strong>Desculpe, algo deu errado, favor tente novamente...</strong></center></h1>';
-			//echo '<script>FailedFotos()</script>';
+
 		}
 	}
 

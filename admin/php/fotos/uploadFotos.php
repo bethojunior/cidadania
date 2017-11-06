@@ -61,7 +61,7 @@
 
                 $img = WideImage::load($upload_dir.$userpic);
                 //REDIMENCIONAR IMAGEM
-                $red = $img->resize(200,200);
+                $red = $img->resize(50,50);
                 //SALVANDO EM QUALQUER FORMATO
                 $red->saveToFile($upload_dir.'/small/'.$userpic);
 

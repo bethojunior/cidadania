@@ -10,7 +10,7 @@
 		echo
 		'<tr>
 			<td>
-				<img class="editImg" src="../uploadsC/'.$fotos['imagem'].'">
+				<img class="editImg" src="../uploadsC/medium/'.$fotos['imagem'].'">
 			</td>
 			
 			<td>
