@@ -5,6 +5,7 @@
 
 <?php
 	require_once("../conexao.php");
+    require '../lib/WideImage.php';
 	$conexao = mysqli_connect($host , $user , $pass, $banco ) or die (mysqli_error());
 
 
@@ -55,9 +56,25 @@
 		    // Check file size '5MB'
 		    if($imgSize < 5000000)    {
 		     	move_uploaded_file($tmp_dir,$upload_dir.$userpic);
-		     	//echo '<div class="loader"></div>';
-                //echo '<script>SucessFotos()</script>';
-                //echo '<h1><center><strong>Upload feito com Sucesso!!</strong></center></h1>';
+
+                //IMAGENS SMALL
+
+                $img = WideImage::load($upload_dir.$userpic);
+                //REDIMENCIONAR IMAGEM
+                $red = $img->resize(200,200);
+                //SALVANDO EM QUALQUER FORMATO
+                $red->saveToFile($upload_dir.'/small/'.$userpic);
+
+
+                //IMAGENS MEDIUM
+
+                $img = WideImage::load($upload_dir.$userpic);
+                //REDIMENCIONAR IMAGEM
+                $red = $img->resize(300,300);
+                //SALVANDO EM QUALQUER FORMATO
+                $red->saveToFile($upload_dir.'/medium/'.$userpic);
+
+
 		    }
 		    else{
 		     	$errMSG = "<h1><strong><center>Desculpe, sua imagem é muito grande.</center></strong></h1>";

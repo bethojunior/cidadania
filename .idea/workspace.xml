@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5a5d102-9c81-4c07-b5f6-a739a6c04fd5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/uploads/Judocas CidadÃ£os.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/uploads/a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/uploads/e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/uploads/sd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/uploadsC/Bhhh.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/uploadsC/TESTE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/uploadsC/aluno2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/uploadsC/auln3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/uploadsC/dsfsdf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/uploadsC/editar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/uploadsC/teste.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/wideImagens/medium/dsfsdf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/wideImagens/small/dsfsdf.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/php/fotos/uploadFotos.php" afterPath="$PROJECT_DIR$/admin/php/fotos/uploadFotos.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/php/fotos/uploadFotosC.php" afterPath="$PROJECT_DIR$/admin/php/fotos/uploadFotosC.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +30,10 @@
       <file leaf-file-name="uploadFotosC.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/php/fotos/uploadFotosC.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="364">
+              <caret line="71" column="38" lean-forward="true" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
               <folding>
-                <marker date="1509994376563" expanded="true" signature="703:771" ph="INSERT INTO imagemc... " />
+                <marker date="1509995130609" expanded="true" signature="703:771" ph="INSERT INTO imagemc... " />
               </folding>
             </state>
           </provider>
@@ -34,6 +47,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/admin/php/fotos/uploadFotos.php" />
         <option value="$PROJECT_DIR$/admin/php/fotos/uploadFotosC.php" />
       </list>
     </option>
@@ -46,8 +60,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-404" />
-    <option name="y" value="209" />
+    <option name="x" value="-55" />
+    <option name="y" value="14" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -125,12 +139,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509994204759</updated>
-      <workItem from="1509994206009" duration="254000" />
+      <workItem from="1509994206009" duration="961000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254000" />
+    <option name="totallyTimeSpent" value="961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -166,12 +180,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/admin/php/fotos/uploadFotos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <marker date="1509995045417" expanded="true" signature="863:949" ph="INSERT INTO imagem... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/php/fotos/uploadFotosC.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="364">
+          <caret line="71" column="38" lean-forward="true" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
           <folding>
-            <marker date="1509994376563" expanded="true" signature="703:771" ph="INSERT INTO imagemc... " />
+            <marker date="1509995130609" expanded="true" signature="703:771" ph="INSERT INTO imagemc... " />
           </folding>
         </state>
       </provider>

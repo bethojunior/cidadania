@@ -63,7 +63,7 @@
                 //REDIMENCIONAR IMAGEM
                 $red = $img->resize(200,200);
                 //SALVANDO EM QUALQUER FORMATO
-                $red->saveToFile('../../wideImagens/small/'.$userpic);
+                $red->saveToFile($upload_dir.'/small/'.$userpic);
 
 
                 //IMAGENS MEDIUM
@@ -72,7 +72,7 @@
                 //REDIMENCIONAR IMAGEM
                 $red = $img->resize(300,300);
                 //SALVANDO EM QUALQUER FORMATO
-                $red->saveToFile('../../wideImagens/medium/'.$userpic);
+                $red->saveToFile($upload_dir.'/medium/'.$userpic);
             }
 		    else{
 		     	$errMSG = "<h1><strong><center>Desculpe, sua imagem é muito grande.</center></strong></h1>";
