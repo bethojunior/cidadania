@@ -12,7 +12,7 @@
         }else{
             echo "<div class='item'>";
         }
-        echo "<img class='imgC' src='../admin/uploadsC/".$imagem['imagem']."' >";
+        echo "<img src='../admin/uploadsC/".$imagem['imagem']."' >";
 ?>    
             <div class="carousel-caption tituloImagem">
                 <!--?php echo "<h3 class=''>".$imagem['titulo']."</h3><hr>"; ?-->
