@@ -103,7 +103,7 @@
 
         }
 
-        ////////MODAL ALTERAR AÇÕES
+        ////////MODAL ALTERAR NOOTICIAS
         function alterarNoticia(id){
             $.ajax({
                 url: "../php/noticias/receberNoticia.php",

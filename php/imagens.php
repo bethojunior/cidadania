@@ -10,7 +10,7 @@
     
     $i = 1;
     while ($imagem = mysqli_fetch_array($busca) ){
-     ?>
+    ?>
 	<div class="col-lg-4 divImagem col-md-12 col-sm-12" data-toggle="modal" data-target="#modalFoto<?php echo $i; ?>">
         <div class="tituloImagem1" >
            <?php 
